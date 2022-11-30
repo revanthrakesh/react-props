@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+/*import ClassComponent from './ClassComponent'
+import ClassComponent2 from './ClassComponent2'
+function App(){
+ return (
+ <section>
+     <p>Hello fellows</p>
+     <h1>This is h1 tag</h1>
+     <ClassComponent/>
+     <ClassComponent2/>
+     <img src="https://www.mixindia.com/wp-content/uploads/2022/07/Ivana-Photos-1.jpg"/>
+   </section>
+   )
+ }
+export default App*/
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import PropsExample from './PropsExample'
+function App(){
+    return(
+        <div>
+        <h1>This is about props example</h1>
+        <PropsExample name="Rakesh"age="20"/>
+        </div>
+        )
 }
 
-export default App;
+ export default App
+  
