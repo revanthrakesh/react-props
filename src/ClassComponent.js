@@ -1,11 +1,11 @@
-import React from "react"
+import React from 'react'
 class ClassComponent extends React.Component{
 	render(){
 		return(
 			<div>
-			   from class Component
-			 </div>
-			)
+				From class component
+			</div>
+			   )
 	}
 }
 export default ClassComponent
